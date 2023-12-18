@@ -1,0 +1,319 @@
+baseURL = 'https://www.aniketbhatnagar.com/'
+languageCode = 'en-us'
+title = 'Aniket Bhatnagar'
+theme = []
+defaultContentLanguage = "en"
+paginate = 6
+enableRobotsTXT = true
+enableEmoji = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[module]
+    [[module.imports]]
+        path = 'github.com/gurusabarish/hugo-profile'
+    [[module.imports]]
+        path = 'github.com/martignoni/hugo-video'
+
+
+[[menu.main]]
+  name = "Tech skills"
+  weight = 1
+  url  = "/key-skills/"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+page = [ "HTML", "RSS" ]
+
+[params]
+title = "Aniket Bhatnagar"
+description = "Aniket Bhatnagar's personal websiter"
+favicon = "/images/ab.png"
+useBootstrapCDN = true
+mathjax = false
+animate = true
+
+  [params.font]
+  fontSize = "1rem"
+  fontWeight = 400
+  lineHeight = 1.5
+  textAlign = "left"
+
+  [params.navbar]
+  align = "ms-auto"
+  brandName = "Aniket Bhatnagar"
+  disableSearch = false
+
+    [params.navbar.stickyNavBar]
+    enable = true
+    showOnScrollUp = false
+
+    [params.navbar.menus]
+    disableAbout = false
+    disableExperience = false
+    disableEducation = false
+    disableProjects = false
+    disableAchievements = false
+    disableContact = false
+
+  [params.hero]
+  enable = true
+  intro = "Hi, my name is"
+  title = "Aniket Bhatnagar."
+  subtitle = "I build scalable backend systems"
+  content = "using my 16+years of rich experience."
+  image = "/images/profile-pic.jpg"
+
+    [params.hero.bottomImage]
+    enable = true
+
+    [params.hero.button]
+    enable = true
+    name = "CV"
+    url = "https://drive.google.com/file/d/1bblLFZ70MkpbxskZri1uCJi6nOdpQskn/view?usp=sharing"
+    download = false
+    newPage = true
+
+    [[params.hero.socialLinks.fontAwesomeIcons]]
+    icon = "fab fa-github"
+    url = "https://github.com/aniketbhatnagar"
+
+    [[params.hero.socialLinks.fontAwesomeIcons]]
+    icon = "fab fa-linkedin"
+    url = "https://www.linkedin.com/in/aniketbhatnagar"
+
+    [[params.hero.socialLinks.customIcons]]
+    icon = "/images/icons/chatgpt.png"
+    url = "https://chat.openai.com/g/g-WbxxaYmxQ-aniket-s-work-experience"
+
+  [params.about]
+  enable = true
+  title = "About Me"
+  image = "/images/xi-2015.png"
+  content = """
+  I am a seasoned software engineer with 16+ years of mostly backend experience.  
+  <p>
+    Here is a list of <a href="/key-skills/">tech skills</a>.
+    Got questions? Use <a href="https://chat.openai.com/g/g-WbxxaYmxQ-aniket-s-work-experience">my GPT</a>.
+  </p>
+"""
+
+    [params.about.skills]
+    enable = true
+    title = "I speciailze in:"
+    items = [
+        "Payments",
+        "Highly scalable architectures",
+        "Distributed systems",
+        "Eventual consistency",
+        "Non-blocking I/O",
+        "Real time streaming",
+        "Replatforming legacy systems iteratively",
+        "At least once message processing",
+        "Performance tuning",
+        "Blockchain/distributed consensus"
+    ]
+
+  [params.experience]
+    enable = false
+
+    [[params.experience.items]]
+    job = "Senior Software Developer"
+    company = "Facebook"
+    companyUrl = "https://example.com"
+    date = "Jan 2022 - present"
+    content = "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+
+      [params.experience.items.featuredLink]
+      enable = true
+      name = "View the project"
+      url = "https://example.com"
+
+    [[params.experience.items]]
+    job = "Software Developer"
+    company = "Amazon"
+    companyUrl = "https://example.com"
+    date = "Sep 2020 - Dec 2021"
+    content = """
+I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+- Lead backend developer for a product.
+- Created a frontend design for a product.
+"""
+
+      [params.experience.items.featuredLink]
+      enable = true
+      url = "https://example.com"
+
+      [params.experience.items.info]
+      enable = true
+      content = "I worked as a software developer for more than one year in Amazon."
+
+    [[params.experience.items]]
+    job = "Junior Software Developer"
+    company = "Apple"
+    companyUrl = "https://example.com"
+    date = "Jan 2020 - Aug 2020"
+    content = """
+I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+- Lead backend developer for a product.
+- Created a frontend design for a product.
+"""
+
+      [params.experience.items.info]
+      enable = false
+
+      [params.experience.items.featuredLink]
+      enable = true
+      url = "https://example.com"
+
+    [[params.experience.items]]
+    job = "UI/UX Designer"
+    company = "Netflix"
+    companyUrl = "https://example.com"
+    date = "June 2017 - Nov 2019"
+    content = """
+I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+- Lead backend developer for a product.
+- Created a frontend design for a product.
+"""
+
+      [params.experience.items.featuredLink]
+      enable = true
+      url = "https://example.com"
+
+    [[params.experience.items]]
+    job = "Product Designer"
+    company = "Google"
+    companyUrl = "https://example.com"
+    date = "Feb 2016 - Mar 2017"
+    content = "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+
+  [params.education]
+  enable = false
+  index = false
+
+  [params.achievements]
+  enable = false
+
+    [[params.achievements.items]]
+    title = "Google kickstart runner"
+    content = "I solved all problems with optimal solution."
+    url = "https://example.com"
+    image = "/images/achievment.jpg"
+
+    [[params.achievements.items]]
+    title = "Facebook Hackathon Winner"
+    content = "Developed a product using Artificial Intelligence."
+    image = "/images/achievment.jpg"
+
+    [[params.achievements.items]]
+    title = "Hugo Profile"
+    content = "Developed a theme and getting 1K+ downloads per month."
+    url = "https://github.com/gurusabarish/hugo-profile"
+    image = "/images/achievment.jpg"
+
+    [[params.achievements.items]]
+    title = "Microsoft Imagine Runner"
+    content = "We are developed a product which can help others."
+
+    [[params.achievements.items]]
+    title = "Google Summer of Code"
+    content = "Contributed to a open source project."
+    url = "https://example.com"
+
+  [params.projects]
+  enable = false
+
+    [[params.projects.items]]
+    title = "Hugo Profile"
+    content = "A highly customizable and mobile first Hugo template for personal portfolio and blog."
+    image = "/images/projects/profile.png"
+    badges = [ "Hugo", "Bootstrap", "Javascript" ]
+
+      [params.projects.items.featured]
+      name = "Demo"
+      link = "https://hugo-profile.netlify.app"
+
+      [[params.projects.items.links]]
+      icon = "fa fa-envelope"
+      url = "mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f"
+
+      [[params.projects.items.links]]
+      icon = "fab fa-github"
+      url = "https://github.com/gurusabarish/hugo-profile"
+
+      [[params.projects.items.links]]
+      icon = "fab fa-twitter"
+      url = "https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile"
+
+    [[params.projects.items]]
+    title = "Image Converter"
+    content = "A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django."
+    image = "/images/projects/converter.jpg"
+    badges = [ "Django", "Bootstrap" ]
+
+      [params.projects.items.featured]
+      name = "Demo"
+      link = "https://django-converter.herokuapp.com"
+
+      [[params.projects.items.links]]
+      icon = "fab fa-github"
+      url = "https://github.com/gurusabarish/converter"
+
+    [[params.projects.items]]
+    title = "Hugo Profile V2"
+    content = "A clean and simple Hugo template for personal portfolio and blog."
+    image = "/images/projects/profile2.jpg"
+    badges = [ "Hugo", "Bootstrap", "Javascript" ]
+
+      [params.projects.items.featured]
+      name = "Demo V2"
+      link = "https://hugo-profile-2.netlify.app"
+
+      [[params.projects.items.links]]
+      icon = "fab fa-github"
+      url = "https://github.com/gurusabarish/HugoProfileV2"
+
+  [params.contact]
+  enable = false
+  content = "My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!"
+  email = "no-reply@gmail.com"
+  btnName = "Mail me"
+
+[params.footer.recentPosts]
+path = "blogs"
+count = 3
+title = "Recent Posts"
+enable = false
+disableFeaturedImage = false
+
+[params.footer.socialNetworks]
+github = "https://github.com/aniketbhatnagar"
+linkedin = "https://www.linkedin.com/in/aniketbhatnagar"
+  [params.listPages]
+  disableFeaturedImage = false
+
+[params.singlePages.readTime]
+enable = true
+content = "min read"
+
+[params.singlePages.scrollprogress]
+enable = true
+
+  [params.terms]
+  read = "Read"
+  toc = "Table Of Contents"
+  copyright = "All rights reserved"
+  pageNotFound = "Page not found"
+  emailText = "Check out this site"
+
+  [params.datesFormat]
+  article = "Jan 2, 2006"
+  articleList = "Jan 2, 2006"
+  articleRecent = "Jan 2, 2006"
