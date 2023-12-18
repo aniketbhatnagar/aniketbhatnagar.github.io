@@ -14,7 +14,9 @@ popd
 echo "Cleaning up old build artifacts..."
 find . -mindepth 1 -maxdepth 1 ! -name 'bin' ! -name 'src' ! -name 'README*' ! -name '.git*' -exec rm -rf {} \;
 
-echo "Moving new build artifacts to the parent directory..."
-cp -r src/public/* .
+echo "Moving new build artifacts to the docs directory..."
+rm -rf docs
+mkdir docs
+cp -r src/public/* docs/.
 
 echo "Build completed successfully."
