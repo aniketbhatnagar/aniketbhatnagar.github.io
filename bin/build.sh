@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "Cleaning up old build artifacts..."
+rm -rf docs
+
 pushd src
     echo "Building the Hugo site..."
     rm -rf public
@@ -11,12 +14,10 @@ pushd src
     fi
 popd
 
-echo "Cleaning up old build artifacts..."
-find . -mindepth 1 -maxdepth 1 ! -name 'bin' ! -name 'src' ! -name 'README*' ! -name '.git*' -exec rm -rf {} \;
-
 echo "Moving new build artifacts to the docs directory..."
-rm -rf docs
 mkdir docs
 cp -r src/public/* docs/.
+# Copy .well-known manually as its not copied over by hugo
+cp -r src/static/.well-known docs/
 
 echo "Build completed successfully."

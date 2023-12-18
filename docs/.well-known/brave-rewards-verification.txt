@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: aniketbhatnagar.com
+Token: 82d844aa9b8645bceca427c9dc9642100cd35a23521ceac514ca67acf0bf9804
