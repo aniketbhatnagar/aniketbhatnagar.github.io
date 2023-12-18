@@ -1,0 +1,10 @@
+github.com/gethugothemes/hugo-modules/accordion v0.0.0-20231213094845-42e6b5af6245 h1:9tSrIkBGfPR8bTfFxa3NS55wcOCI7C41nvpNml0JbLs=
+github.com/gethugothemes/hugo-modules/accordion v0.0.0-20231213094845-42e6b5af6245/go.mod h1:D4DpauKPDcUHI9CVKYmJeO6bkSJIhUN864TyXZ2o0VI=
+github.com/gethugothemes/hugo-modules/gallery-slider v0.0.0-20231213094845-42e6b5af6245 h1:E4vUfHFd78Oji7FccNlJuQDEUbV24q2w5+KaE62/GXk=
+github.com/gethugothemes/hugo-modules/gallery-slider v0.0.0-20231213094845-42e6b5af6245/go.mod h1:MvQ2js/ofZ22CTX5wuvE+dC0rMe6C5HAWL2fEOu/yzE=
+github.com/gurusabarish/hugo-profile v0.0.0-20231217054710-6c63323612b1 h1:3i21hhghybF2O1lzbe10JF2naV7ADGZvGN5mxgVS45w=
+github.com/gurusabarish/hugo-profile v0.0.0-20231217054710-6c63323612b1/go.mod h1:drpVx8hmKaH1c5qiGjGFQ6FU+I1C6ygS/U7AB5nMH44=
+github.com/luizdepra/hugo-coder v0.0.0-20231204173058-0fab52d36def h1:/jXF2tzc1x2OPCnL0AejJxji9oRUwmh2+NarC9gP/fY=
+github.com/luizdepra/hugo-coder v0.0.0-20231204173058-0fab52d36def/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
+github.com/martignoni/hugo-video v0.0.0-20230930085101-1b6b30e17ab1 h1:NoMnv+rXlzyYX650LNyZOUXKVDDnGgl/Reh8qnkDkxs=
+github.com/martignoni/hugo-video v0.0.0-20230930085101-1b6b30e17ab1/go.mod h1:6znBMZPHUeexE9mrmkJOV68XegajtAmiA/dADXCRRt4=
