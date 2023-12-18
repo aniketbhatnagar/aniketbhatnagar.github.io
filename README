@@ -1,3 +1,6 @@
 aniketbhatnagar.com
 ======================
 My personal website
+
+## Build
+Build using ./bin/build.sh
