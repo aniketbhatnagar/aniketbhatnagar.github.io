@@ -21,4 +21,4 @@ As I believe in using the right tool for the job, I am not married to any techno
 Got any questions about my experience? Use [my GPT](https://chat.openai.com/g/g-WbxxaYmxQ-aniket-s-work-experience). 
 
 **:warning:**
-ChatGPT can make mistakes and therefore, when in doubt, please consider confirming the responses by contacting me on [my LinkedIn](https://github.com/aniketbhatnagar/).
+ChatGPT can make mistakes and therefore, when in doubt, please consider confirming the responses by contacting me on [my LinkedIn](https://www.linkedin.com/in/aniketbhatnagar/).
