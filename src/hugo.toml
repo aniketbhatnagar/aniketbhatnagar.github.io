@@ -14,7 +14,7 @@ enableEmoji = true
 
 [module]
     [[module.imports]]
-        path = 'github.com/gurusabarish/hugo-profile'
+        path = 'github.com/aniketbhatnagar/hugo-profile'
     [[module.imports]]
         path = 'github.com/martignoni/hugo-video'
 
@@ -118,34 +118,42 @@ animate = true
     ]
 
   [params.experience]
-    enable = false
+    enable = true
 
     [[params.experience.items]]
-    job = "Senior Software Developer"
-    company = "Facebook"
-    companyUrl = "https://example.com"
-    date = "Jan 2022 - present"
-    content = "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+    job = "Staff Software Developer"
+    company = "Coinbase"
+    companyUrl = "https://www.coinbase.com/"
+    date = "April 2022 - present"
+    content = """
+I am currently working as a staff software developer at [Coinbase](https://www.coinbase.com/) in Dublin, Ireland. 
+As a staff engineer looking to expand Coinbase internationally, I:
+- Design features end to end, lead the team to launch features, work with staff engineers in other teams to reach consensus on the design.
+- Review design of consumer organization projects.
+- Mentor, help & performance calibrations for all team members in the entire consumer organization.
+
+Tech stack: gRPC, Go (Programming Language), Amazon Dynamodb, MongoDB, Amazon Web Services (AWS), Cadence & Temporal workflows, GraphQL, React, Payments
+    """
 
       [params.experience.items.featuredLink]
-      enable = true
+      enable = false
       name = "View the project"
       url = "https://example.com"
 
     [[params.experience.items]]
-    job = "Software Developer"
-    company = "Amazon"
-    companyUrl = "https://example.com"
-    date = "Sep 2020 - Dec 2021"
+    job = "Staff Software Developer"
+    company = "Patreon"
+    companyUrl = "https://www.patreon.com/"
+    date = "Jan 2020 - Mar 2022"
     content = """
-I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+- Staff software engineer in platform team: I was the Tech Lead for the team responsible towards replatforming of Patreon stack. Propose standards, design API contracts, propose new components in existing stack, implement crucial pieces of platform, etc. 
+- Staff software engineer in the payments team: As a first hire of the Dublin engineering team, I was responsible for architecture, growing team, leading team, designing & implementing critical components for the payments team.
 
-- Lead backend developer for a product.
-- Created a frontend design for a product.
+Tech stack: Python 3, Flask, SQLAlchemy, Java, Spring, AWS, MySQL, DynamoDB, GraphQL, Node, Typescript, NestJS, Payments
 """
 
       [params.experience.items.featuredLink]
-      enable = true
+      enable = false
       url = "https://example.com"
 
       [params.experience.items.info]
@@ -153,46 +161,58 @@ I am currently working as a software developer at [example org.](https://example
       content = "I worked as a software developer for more than one year in Amazon."
 
     [[params.experience.items]]
-    job = "Junior Software Developer"
-    company = "Apple"
-    companyUrl = "https://example.com"
-    date = "Jan 2020 - Aug 2020"
+    job = "Principal Software Developer"
+    company = "Circle"
+    companyUrl = "https://www.circle.com/"
+    date = "Jul 2017 - Jan 2020"
     content = """
-I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+Principal software engineer in the platform team: As the first hire of the Dublin engineering team, I was responsible for architecture, growing team, leading team,  designing & implementing critical components for multiple products, mentor team members, identifying & proposing new platform components, groom stories for new products, etc.
+- Lead the effort for USDC APIs - A B2B product to help businesses use our fiat & crypto capabilities for payments and brokerage, focusing on technical design, breaking the system down into multiple components, etc. My leadership in USDC product development catalyzed a fiscal turnaround, transforming the company from a brink-of-bankruptcy status to a [robust $1 billion cash reserve](https://www.linkedin.com/posts/josh-hawkins-5253223_circle-says-1-billion-in-cash-serves-as-activity-7095436956335042560-2sW3/).
+- Lead team to successful launch of [USDC](https://www.circle.com/en-ie/usdc) - a stable coin with second highest [market cap](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48). Implemented multi-chain wallet, minting & burning of coin, handing reorgs/chain splits in ETH blockchain/ERC-20 tokens, etc
+- Lead team to successful launch of [Circle Invest](https://support.invest.circle.com/hc/en-us/categories/360000015863-About-Circle-Invest). Implemented main trade feature, scaled platform to support multiple products, etc.
+- Architect and Implemented various features around banking/cards integration, accounting, etc in [Circle Pay](https://support.circle.com/hc/en-gb/articles/212059246--What-is-Circle-Pay-) & [Poloniex](https://poloniex.com/).
+- Thought leader in various platform initiatives like monitoring & tracing.
 
-- Lead backend developer for a product.
-- Created a frontend design for a product.
+Tech stack - Java 8, Dropwizard, Postgres SQL, BTC, ETH, ERC-20 tokens, Smart contracts, Solidity, Web3J, AWS SQS, AWS Lambda, Payments
 """
 
       [params.experience.items.info]
       enable = false
 
       [params.experience.items.featuredLink]
-      enable = true
+      enable = false
       url = "https://example.com"
 
     [[params.experience.items]]
-    job = "UI/UX Designer"
-    company = "Netflix"
-    companyUrl = "https://example.com"
-    date = "June 2017 - Nov 2019"
+    job = "Senior Software Engineer"
+    company = "Yahoo"
+    companyUrl = "https://www.yahooinc.com/"
+    date = "Jan 2016 - May 2017"
     content = """
-I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+I worked as senior software engineer in adtech.
+- Responsible for delivering highly performant and scalable components in small self-aligning teams.
+- With 6 months of joining, I single handedly delivered cache over user targeting store that caters to 800,000+ reads per second with 99% percentile latency as 6ms and 10,00,000+ writes per second. Identified and fixed critical issues in Netty and Aerospike client.
+- Debugged production issues by performing off-heap analysis, Receive Side Steering optimization, CPU flamegraph analysis.
+- Proposed solutions to several problems like identifying hot keys (top K problem) and reaching consensus between several components in a distributed system around what the most recent version of a record is.
+- Nominated for various awards. Won innovation award for system to gather data for CPU flamegraphs analysis.
 
-- Lead backend developer for a product.
-- Created a frontend design for a product.
+Tech stack: Java 8, Netty, Spring 4, Spring boot, REST, Thrift, Avro, Aerospike, Chef, Jenkins, Kafka, Non-blocking I/O, AWS
 """
 
       [params.experience.items.featuredLink]
-      enable = true
+      enable = false
       url = "https://example.com"
 
     [[params.experience.items]]
     job = "Product Designer"
-    company = "Google"
-    companyUrl = "https://example.com"
-    date = "Feb 2016 - Mar 2017"
-    content = "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+    company = "Publicis Sapient"
+    companyUrl = "https://www.publicissapient.com/"
+    date = "Jun 2007 - Nov 2015"
+    content = """
+I was an architect and team lead who actively participated in solution architecture and design for various projects while working with some of the most well known brands like [Coca-Cola](https://www.coca-colacompany.com/), [NASCAR](https://www.nascar.com/), etc. I was resonsible for estimating, project planning, implementing critical components and day to day status tracking.
+
+Tech stack: Scala 2.10.3, Play! Framework 2.2.0, HBase, Java/J2EE, Spring, Hibernate, Lucene, Oracle, Apache Camel, Adobe Day CQ (CMS), OpenID, Redis, ATG Commerce 2006.3, Kafka, Storm, Hadoop, ElasticSearch, StatsD
+"""
 
   [params.education]
   enable = false
