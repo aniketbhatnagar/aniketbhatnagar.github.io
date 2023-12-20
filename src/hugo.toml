@@ -64,7 +64,7 @@ animate = true
   intro = "Hi, my name is"
   title = "Aniket Bhatnagar."
   subtitle = "I build scalable backend systems"
-  content = "using my 16+years of rich experience."
+  content = "using my 16+years of experience."
   image = "/images/profile-pic.jpg"
 
     [params.hero.bottomImage]
@@ -180,8 +180,9 @@ Tech stack - Java 8, Dropwizard, Postgres SQL, BTC, ETH, ERC-20 tokens, Smart co
       enable = false
 
       [params.experience.items.featuredLink]
-      enable = false
-      url = "https://example.com"
+      enable = true
+      name = "Launched USDC"
+      url = "https://www.circle.com/en/usdc"
 
     [[params.experience.items]]
     job = "Senior Software Engineer"
@@ -219,33 +220,15 @@ Tech stack: Scala 2.10.3, Play! Framework 2.2.0, HBase, Java/J2EE, Spring, Hiber
   index = false
 
   [params.achievements]
-  enable = false
+  enable = true
 
+    title = "Launched USDC"
     [[params.achievements.items]]
-    title = "Google kickstart runner"
-    content = "I solved all problems with optimal solution."
-    url = "https://example.com"
-    image = "/images/achievment.jpg"
-
-    [[params.achievements.items]]
-    title = "Facebook Hackathon Winner"
-    content = "Developed a product using Artificial Intelligence."
-    image = "/images/achievment.jpg"
-
-    [[params.achievements.items]]
-    title = "Hugo Profile"
-    content = "Developed a theme and getting 1K+ downloads per month."
-    url = "https://github.com/gurusabarish/hugo-profile"
-    image = "/images/achievment.jpg"
-
-    [[params.achievements.items]]
-    title = "Microsoft Imagine Runner"
-    content = "We are developed a product which can help others."
-
-    [[params.achievements.items]]
-    title = "Google Summer of Code"
-    content = "Contributed to a open source project."
-    url = "https://example.com"
+    content = """
+Founding team member that led the launch of USDC and various products around USDC at Circle. My leadership in USDC product development catalyzed a fiscal turnaround, transforming the company from a brink-of-bankruptcy status to a robust $1 billion cash reserve.
+    """
+    url = "https://www.circle.com/en/usdc"
+    image = "/images/projects/Circle_USDC_Logo.svg"
 
   [params.projects]
   enable = false
