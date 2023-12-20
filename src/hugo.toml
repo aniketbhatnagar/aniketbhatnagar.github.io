@@ -134,6 +134,9 @@ As a staff engineer looking to expand Coinbase internationally, I:
 Tech stack: gRPC, Go (Programming Language), Amazon Dynamodb, MongoDB, Amazon Web Services (AWS), Cadence & Temporal workflows, GraphQL, React, Payments
     """
 
+      [params.experience.items.info]
+      enable = false
+
       [params.experience.items.featuredLink]
       enable = false
       name = "View the project"
@@ -156,7 +159,7 @@ Tech stack: Python 3, Flask, SQLAlchemy, Java, Spring, AWS, MySQL, DynamoDB, Gra
       url = "https://example.com"
 
       [params.experience.items.info]
-      enable = true
+      enable = false
       content = "I worked as a software developer for more than one year in Amazon."
 
     [[params.experience.items]]
@@ -199,6 +202,9 @@ I worked as senior software engineer in adtech.
 Tech stack: Java 8, Netty, Spring 4, Spring boot, REST, Thrift, Avro, Aerospike, Chef, Jenkins, Kafka, Non-blocking I/O, AWS
 """
 
+      [params.experience.items.info]
+      enable = false
+
       [params.experience.items.featuredLink]
       enable = false
       url = "https://example.com"
@@ -213,6 +219,8 @@ I was an architect and team lead who actively participated in solution architect
 
 Tech stack: Scala 2.10.3, Play! Framework 2.2.0, HBase, Java/J2EE, Spring, Hibernate, Lucene, Oracle, Apache Camel, Adobe Day CQ (CMS), OpenID, Redis, ATG Commerce 2006.3, Kafka, Storm, Hadoop, ElasticSearch, StatsD
 """
+      [params.experience.items.info]
+      enable = false
 
   [params.education]
   enable = false
