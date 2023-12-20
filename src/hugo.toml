@@ -94,11 +94,10 @@ animate = true
   title = "About Me"
   image = "/images/xi-2015.png"
   content = """
-  I am a seasoned software engineer with 16+ years of mostly backend [experience](#experience).
-  <p>
-    Here is a list of <a href="/key-skills/">tech skills</a>.
-    Got questions? Use <a href="https://chat.openai.com/g/g-WbxxaYmxQ-aniket-s-work-experience">my GPT</a>.
-  </p>
+  I am a seasoned software engineer with 16+ years of mostly backend [experience](#experience), complemented by a broad range of [technical skills](/key-skills/).
+
+  Got questions about my experience? Use [my GPT](https://chat.openai.com/g/g-WbxxaYmxQ-aniket-s-work-experience).
+  :warning: ChatGPT can make mistakes and therefore, when in doubt, please consider confirming the responses by contacting me on [my LinkedIn](https://github.com/aniketbhatnagar/).
 """
 
     [params.about.skills]
