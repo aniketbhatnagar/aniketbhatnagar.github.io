@@ -29,7 +29,7 @@ I presentation the design & architecture of the platform at [Great International
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vToDoaKbfiq4Tmv20Z-gCimghJg-R75PZTt-occRDc43yTGSAzZZbe5ZfJhzPA38A/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
 
-The platform was built using the tech stack: Scala, Play! framework, Non-blocking I/O, Redis, HBase, Spark, Hadoop, ElasticSearch.
+The platform was built using the tech stack: Scala, Play! framework, Non-blocking I/O, Redis, HBase, Kafka, Spark, Hadoop, ElasticSearch.
 It not only garnered acclaim within the company but also earned a spotlight presentation by [our CTO at the prestigious Strata Conference in London](https://www.slideshare.net/OReillyStrata/sapientnitro-stratapresentationupload) (slides 30 - 33):
 <div class="embed-responsive embed-responsive-16by9">
     <iframe src="https://www.slideshare.net/slideshow/embed_code/key/iLAmtvyKaSRRw?startSlide=31" width="960" height="749" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px;max-width: 100%;" allowfullscreen></iframe><div style="margin-bottom:5px"><strong><a href="https://www.slideshare.net/OReillyStrata/sapientnitro-stratapresentationupload" title="SapientNitro Strata_presentation_upload" target="_blank">SapientNitro Strata_presentation_upload</a></strong> from <strong><a href="https://www.slideshare.net/OReillyStrata" target="_blank">OReillyStrata</a></strong></div>
