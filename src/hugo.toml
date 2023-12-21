@@ -93,7 +93,7 @@ animate = true
   [params.about]
   enable = true
   title = "About Me"
-  image = "/images/xi-2015.png"
+  image = "/images/xi-2015-small.png"
   content = """
   I am a seasoned software engineer with 16+ years of mostly backend [experience](#experience), complemented by a broad range of [technical skills](/key-skills/).
 
@@ -230,13 +230,20 @@ Tech stack: Scala 2.10.3, Play! Framework 2.2.0, HBase, Java/J2EE, Spring, Hiber
   [params.achievements]
   enable = true
 
-    title = "Achievements"
-    [[params.achievements.items]]
-    content = """
+    title = "Highlights"
+      [[params.achievements.items]]
+      content = """
 My leadership in USDC product development catalyzed a fiscal turnaround, transforming the company from a brink-of-bankruptcy status to a robust $1 billion cash reserve.
-    """
-    url = "https://www.circle.com/en/usdc"
-    image = "/images/projects/Circle_USDC_Logo.svg"
+      """
+      url = "https://www.circle.com/en/usdc"
+      image = "/images/projects/Circle_USDC_Logo.svg"
+
+      [[params.achievements.items]]
+      content = """
+During the early stages of my career, I was recognized as SapientNitro’s Game Changer. Watch it here.
+      """
+      url = "/game-changer/"
+      image = "/images/highlights/SN-GameChanger-Recognition-small.png"
 
   [params.projects]
   enable = false
