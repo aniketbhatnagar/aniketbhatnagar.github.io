@@ -19,11 +19,17 @@ googleAnalytics = "G-MEASUREMENT_ID"
     [[module.imports]]
         path = 'github.com/martignoni/hugo-video'
 
-
 [[menu.main]]
+  identifier = "tech skills"
   name = "Tech skills"
   weight = 1
   url  = "/key-skills/"
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  weight = 2
+  url  = "/blogs/"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
