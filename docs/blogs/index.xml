@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aniket Bhatnagar</title>
-    <link>https://www.aniketbhatnagar.com/</link>
-    <description>Recent content on Aniket Bhatnagar</description>
+    <title>Blogs on Aniket Bhatnagar</title>
+    <link>https://www.aniketbhatnagar.com/blogs/</link>
+    <description>Recent content in Blogs on Aniket Bhatnagar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Dec 2023 15:40:58 +0100</lastBuildDate>
-    <atom:link href="https://www.aniketbhatnagar.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.aniketbhatnagar.com/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dataplatform for IoT</title>
       <link>https://www.aniketbhatnagar.com/blogs/starship/</link>
       <pubDate>Thu, 21 Dec 2023 15:40:58 +0100</pubDate>
       <guid>https://www.aniketbhatnagar.com/blogs/starship/</guid>
       <description>Challenge With the vision for instrumenting physical world, I was tasked with building a platform that enabled rapid prototyping &amp;amp; installation of sensors.&#xA;Solution I built a data platform that provided an APIs &amp;amp; framework for:&#xA;Defining sensor schema Collecting sensor data. The data was stored as timeseries in HBase. Stream collected data in realtime for visualization and installation validation. Perform real time and batch analytics on collected data using Spark.</description>
-    </item>
-    <item>
-      <title>My tech skills</title>
-      <link>https://www.aniketbhatnagar.com/key-skills/</link>
-      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.aniketbhatnagar.com/key-skills/</guid>
-      <description>Key skills As I believe in using the right tool for the job, I am not married to any technology and language in particular. Below is the list of skills I have acquired over the years working in the tech industry:&#xA;Languages: Java, Scala, Python, Typescript, Go Databases: MySQL, Postgres, MongoDB, DynamoDB, HBase, Redis Tools/Frameworks: JEE, Spring, Play! Framework 2, Spark, Hadoop, Kafka, SQS, Kinesis, Cadence, Temporal Cloud: AWS (EC2, ASG, ALB/ELB, RDS, SQS, SNS, Lambda, API Gateway, Route 53, Kinesis, CloudFront, etc) Blockchain: Ethereum, Bitcoin, multi-cryptocurrency wallet infrastructure, smart contract based sweeps Interests: Payments, Highly scalable architectures, blockchain/distributed consensus, distributed systems, eventual consistency, non-blocking I/O, real time streaming, improving/replatforming legacy systems iteratively, atleast once message processing, performance tuning.</description>
     </item>
     <item>
       <title>SapientNitro&#39;s game changer</title>

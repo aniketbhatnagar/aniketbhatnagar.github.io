@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dataplatform on Aniket Bhatnagar</title>
+    <link>https://www.aniketbhatnagar.com/tags/dataplatform/</link>
+    <description>Recent content in dataplatform on Aniket Bhatnagar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Dec 2023 15:40:58 +0100</lastBuildDate>
+    <atom:link href="https://www.aniketbhatnagar.com/tags/dataplatform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dataplatform for IoT</title>
+      <link>https://www.aniketbhatnagar.com/blogs/starship/</link>
+      <pubDate>Thu, 21 Dec 2023 15:40:58 +0100</pubDate>
+      <guid>https://www.aniketbhatnagar.com/blogs/starship/</guid>
+      <description>Challenge With the vision for instrumenting physical world, I was tasked with building a platform that enabled rapid prototyping &amp;amp; installation of sensors.&#xA;Solution I built a data platform that provided an APIs &amp;amp; framework for:&#xA;Defining sensor schema Collecting sensor data. The data was stored as timeseries in HBase. Stream collected data in realtime for visualization and installation validation. Perform real time and batch analytics on collected data using Spark.</description>
+    </item>
+  </channel>
+</rss>

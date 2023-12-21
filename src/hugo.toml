@@ -240,9 +240,16 @@ My leadership in USDC product development catalyzed a fiscal turnaround, transfo
 
       [[params.achievements.items]]
       content = """
+I built a datapltform that for IoT. Read about it here. 
+"""
+      url = "/blogs/starship/"
+      image = "/blogs/starship/starship-realtime-demo.png"
+
+      [[params.achievements.items]]
+      content = """
 During the early stages of my career, I was recognized as SapientNitro’s Game Changer. Watch it here.
       """
-      url = "/game-changer/"
+      url = "/blogs/game-changer/"
       image = "/images/highlights/SN-GameChanger-Recognition-small.png"
 
   [params.projects]
@@ -308,7 +315,7 @@ During the early stages of my career, I was recognized as SapientNitro’s Game 
 path = "blogs"
 count = 3
 title = "Recent Posts"
-enable = false
+enable = true
 disableFeaturedImage = false
 
 [params.footer.socialNetworks]
