@@ -246,7 +246,7 @@ My leadership in USDC product development catalyzed a fiscal turnaround, transfo
 
       [[params.achievements.items]]
       content = """
-I built a datapltform that for IoT. Read about it here. 
+I built a datapltform for IoT. Read about it here. 
 """
       url = "/blogs/starship/"
       image = "/blogs/starship/starship-realtime-demo.png"
