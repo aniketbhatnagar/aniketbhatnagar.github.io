@@ -3,7 +3,7 @@ module github.com/aniketbhatnagar/aniketbhatnagar.github.io
 go 1.21.4
 
 require (
-	github.com/aniketbhatnagar/hugo-profile v0.0.0-20231221104854-9ca8c778511d // indirect
+	github.com/aniketbhatnagar/hugo-profile v0.0.0-20231221111951-2972e261ec0e // indirect
 	github.com/gethugothemes/hugo-modules/accordion v0.0.0-20231213094845-42e6b5af6245 // indirect
 	github.com/gethugothemes/hugo-modules/gallery-slider v0.0.0-20231213094845-42e6b5af6245 // indirect
 	github.com/gurusabarish/hugo-profile v0.0.0-20231217054710-6c63323612b1 // indirect
