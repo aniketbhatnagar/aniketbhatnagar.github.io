@@ -116,6 +116,36 @@ if (!doNotTrack) {
 
 amplitude.init('550518ee94f4efdb9275b7ba2fc91a76');
 </script>
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+
+    
+    function handleLinkClick(event) {
+        
+        if (event.target.tagName === 'A') {
+
+            
+            var linkText = event.target.textContent;
+            var linkHref = event.target.href;
+
+            
+            var eventProperties = {
+                Name: linkText.trim(),
+                Href: linkHref
+            };
+
+
+            
+            amplitude.track('Link Clicked', eventData.event_properties);
+        }
+    }
+
+    
+    document.querySelectorAll('a').forEach(function(link) {
+        link.addEventListener('click', handleLinkClick);
+    });
+});
+</script>
 <meta name="description" content="Categories of Aniket Bhatnagar">
 <link rel="stylesheet" href="/css/list.css" media="all">
 
