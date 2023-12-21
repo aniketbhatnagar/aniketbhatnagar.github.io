@@ -6,7 +6,7 @@ rm -rf docs
 pushd src
     echo "Building the Hugo site..."
     rm -rf public
-    hugo --gc --minify --baseURL "https://www.aniketbhatnagar.com/"
+    hugo --gc --baseURL "https://www.aniketbhatnagar.com/"
 
     if [ $? -ne 0 ]; then
         echo "Hugo build failed. Exiting script."

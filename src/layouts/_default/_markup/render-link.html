@@ -1,7 +1,7 @@
-<a 
-    href="{{ .Destination | safeURL }}"
-    {{ with .Title}} title="{{ . }}"{{ end }}
-    {{ if or (strings.HasPrefix .Destination "http") (strings.HasPrefix .Destination "https") }} target="_blank" rel="noopener"{{ end }}
->
-    {{ .Text | safeHTML }}
+{{ $isExternal := findRE "^(https?:)?//" (lower .Destination) }}
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }} {{ if $isExternal }} class="external-link" target="_blank" rel="noopener"{{ end }}>
+{{ .Text | safeHTML }}
+{{ if $isExternal }}
+<i class="fa fa-external-link" aria-hidden="true"></i>
+{{ end }}
 </a>
