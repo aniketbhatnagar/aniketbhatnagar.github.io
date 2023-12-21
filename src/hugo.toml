@@ -6,6 +6,7 @@ defaultContentLanguage = "en"
 paginate = 6
 enableRobotsTXT = true
 enableEmoji = true
+googleAnalytics = "G-MEASUREMENT_ID"
 
 [markup]
   [markup.goldmark]
