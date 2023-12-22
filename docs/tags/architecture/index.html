@@ -124,13 +124,21 @@ amplitude.init('550518ee94f4efdb9275b7ba2fc91a76');
     function handleLinkClick(event) {
         var anchor = event.target.closest('a');
         if (anchor) {
-            var linkText = anchor.textContent;
+            var linkText = anchor.textContent.trim();
+            console.log(linkText)
+            if (linkText === '') {
+                
+                console.log("YESS")
+                var svgElement = anchor.querySelector('svg');
+                console.log(svgElement)
+                linkText = svgElement ? svgElement.getAttribute('class') : '';
+            }
             var linkHref = anchor.href;
             var currentPage = window.location.href;
 
             
             var eventProperties = {
-                Name: linkText.trim(),
+                Name: linkText,
                 Href: linkHref,
                 Page: currentPage
             };
