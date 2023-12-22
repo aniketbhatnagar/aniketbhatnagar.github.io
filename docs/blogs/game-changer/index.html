@@ -119,21 +119,33 @@ if (!doNotTrack) {
 amplitude.init('550518ee94f4efdb9275b7ba2fc91a76');
 </script>
 <script type="text/javascript">
+    
+    if (!Element.prototype.closest) {
+        Element.prototype.closest = function(s) {
+            var el = this;
+
+            do {
+                if (el.matches(s)) return el;
+                el = el.parentElement || el.parentNode;
+            } while (el !== null && el.nodeType === 1);
+            return null;
+        };
+    }
+
     document.addEventListener('DOMContentLoaded', function() {
 
-    
     function handleLinkClick(event) {
-        
-        if (event.target.tagName === 'A') {
-
-            
-            var linkText = event.target.textContent;
-            var linkHref = event.target.href;
+        var anchor = event.target.closest('a');
+        if (anchor) {
+            var linkText = anchor.textContent;
+            var linkHref = anchor.href;
+            var currentPage = window.location.href;
 
             
             var eventProperties = {
                 Name: linkText.trim(),
-                Href: linkHref
+                Href: linkHref,
+                Page: currentPage
             };
 
 

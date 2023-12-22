@@ -5,21 +5,33 @@
 amplitude.init('550518ee94f4efdb9275b7ba2fc91a76');
 </script>
 <script type="text/javascript">
+    // event.target.closest polyfill
+    if (!Element.prototype.closest) {
+        Element.prototype.closest = function(s) {
+            var el = this;
+
+            do {
+                if (el.matches(s)) return el;
+                el = el.parentElement || el.parentNode;
+            } while (el !== null && el.nodeType === 1);
+            return null;
+        };
+    }
+
     document.addEventListener('DOMContentLoaded', function() {
 
-    // Function to handle link click events
     function handleLinkClick(event) {
-        // Check if the clicked element is an anchor tag
-        if (event.target.tagName === 'A') {
-
-            // Capture the link text and href
-            var linkText = event.target.textContent;
-            var linkHref = event.target.href;
+        var anchor = event.target.closest('a');
+        if (anchor) {
+            var linkText = anchor.textContent;
+            var linkHref = anchor.href;
+            var currentPage = window.location.href;
 
             // Prepare the event data
             var eventProperties = {
                 Name: linkText.trim(),
-                Href: linkHref
+                Href: linkHref,
+                Page: currentPage
             };
 
 
