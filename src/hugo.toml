@@ -74,6 +74,10 @@ animate = true
   content = "using my 16+years of [experience](#experience)."
   image = "/images/profile-pic.jpg"
 
+    [params.theme]
+    disableThemeToggle = true
+    defaultTheme = "dark"
+
     [params.hero.bottomImage]
     enable = true
 

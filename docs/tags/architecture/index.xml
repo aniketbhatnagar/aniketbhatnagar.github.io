@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>architecture on Aniket Bhatnagar</title>
+    <title>Architecture on Aniket Bhatnagar</title>
     <link>https://www.aniketbhatnagar.com/tags/architecture/</link>
-    <description>Recent content in architecture on Aniket Bhatnagar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Architecture on Aniket Bhatnagar</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Dec 2023 15:40:58 +0100</lastBuildDate>
     <atom:link href="https://www.aniketbhatnagar.com/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://www.aniketbhatnagar.com/blogs/starship/</link>
       <pubDate>Thu, 21 Dec 2023 15:40:58 +0100</pubDate>
       <guid>https://www.aniketbhatnagar.com/blogs/starship/</guid>
-      <description>Challenge With the vision for instrumenting physical world, I was tasked with building a platform that enabled rapid prototyping &amp;amp; installation of sensors.&#xA;Solution I built a data platform that provided an APIs &amp;amp; framework for:&#xA;Defining sensor schema Collecting sensor data. The data was stored as timeseries in HBase. Stream collected data in realtime for visualization and installation validation. Perform real time and batch analytics on collected data using Spark.</description>
+      <description>&lt;h2 id=&#34;challenge&#34;&gt;Challenge&lt;/h2&gt;&#xA;&lt;p&gt;With the vision for instrumenting physical world, I was tasked with building a platform that enabled rapid prototyping &amp;amp; installation of sensors.&lt;/p&gt;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;&#xA;&lt;p&gt;I built a data platform that provided an APIs &amp;amp; framework for:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Defining sensor schema&lt;/li&gt;&#xA;&lt;li&gt;Collecting sensor data. The data was stored as timeseries in HBase.&lt;/li&gt;&#xA;&lt;li&gt;Stream collected data in realtime for visualization and installation validation.&lt;/li&gt;&#xA;&lt;li&gt;Perform real time and batch analytics on collected data using Spark.&lt;/li&gt;&#xA;&lt;li&gt;Build visualizations and reports for the analysis performed.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I presentation the design &amp;amp; architecture of the platform at &#xA;&lt;a href=&#34;https://developersummit.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&#xA;Great International Developer Conference&#xA;&#xA;&lt;i class=&#34;fa fa-external-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;&#xA;&lt;/a&gt; in 2015. Below are the slides:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
