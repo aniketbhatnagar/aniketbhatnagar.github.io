@@ -71,7 +71,7 @@ animate = true
   intro = "Hi, my name is"
   title = "Aniket Bhatnagar."
   subtitle = "I build scalable backend systems"
-  content = "using my 18+ years of [experience](#experience)."
+  content = "using my 19+ years of [experience](#experience)."
   image = "/images/profile-pic.jpg"
 
     [params.theme]
@@ -105,7 +105,7 @@ animate = true
   title = "About Me"
   image = "/images/xi-2015-small.png"
   content = """
-  I am a seasoned software engineer with 18+ years of mostly backend [experience](#experience), complemented by a broad range of [technical skills](/key-skills/).
+  I am a seasoned software engineer with 19+ years of mostly backend [experience](#experience), complemented by a broad range of [technical skills](/key-skills/).
 
   Got questions about my experience? Use [my GPT plugin](https://chatgpt.com/plugins/plugin_71cf13b93aac819189de6b2f6ddb3310).
   :warning: ChatGPT can make mistakes and therefore, when in doubt, please consider confirming the responses by contacting me on [my LinkedIn](https://www.linkedin.com/in/aniketbhatnagar/).
