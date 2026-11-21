@@ -98,7 +98,7 @@ animate = true
 
     [[params.hero.socialLinks.customIcons]]
     icon = "/images/icons/chatgpt.png"
-    url = "https://chat.openai.com/g/g-WbxxaYmxQ-aniket-s-work-experience"
+    url = "https://chatgpt.com/plugins/plugin_71cf13b93aac819189de6b2f6ddb3310"
 
   [params.about]
   enable = true
