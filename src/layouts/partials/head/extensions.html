@@ -2,6 +2,11 @@
     footer a[aria-label="github"] svg {
         fill: currentColor;
     }
+
+    #list-page .card > .card-header .card-img-top,
+    footer .card > .card-header .card-img-top {
+        object-fit: contain;
+    }
 </style>
 
 {{- if hugo.IsProduction }}
