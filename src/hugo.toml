@@ -96,10 +96,6 @@ animate = true
     icon = "fab fa-linkedin"
     url = "https://www.linkedin.com/in/aniketbhatnagar"
 
-    [[params.hero.socialLinks.customIcons]]
-    icon = "/images/icons/chatgpt.png"
-    url = "https://chatgpt.com/plugins/plugin_71cf13b93aac819189de6b2f6ddb3310"
-
   [params.about]
   enable = true
   title = "About Me"
@@ -107,8 +103,6 @@ animate = true
   content = """
   I am a seasoned software engineer with 19+ years of mostly backend [experience](#experience), complemented by a broad range of [technical skills](/key-skills/).
 
-  Got questions about my experience? Use [my GPT plugin](https://chatgpt.com/plugins/plugin_71cf13b93aac819189de6b2f6ddb3310).
-  :warning: ChatGPT can make mistakes and therefore, when in doubt, please consider confirming the responses by contacting me on [my LinkedIn](https://www.linkedin.com/in/aniketbhatnagar/).
 """
 
     [params.about.skills]

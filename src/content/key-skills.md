@@ -17,8 +17,3 @@ As I believe in using the right tool for the job, I am not married to any techno
 - *Blockchain*: Ethereum, Bitcoin, multi-cryptocurrency wallet infrastructure, smart contract based sweeps
 - *Interests*: Payments, Highly scalable architectures, blockchain/distributed consensus, distributed systems, eventual consistency, non-blocking I/O, real time streaming, improving/replatforming legacy systems iteratively, atleast once message processing, performance tuning.
 
-## Questions?
-Got any questions about my experience? Use [my GPT plugin](https://chatgpt.com/plugins/plugin_71cf13b93aac819189de6b2f6ddb3310). 
-
-**:warning:**
-ChatGPT can make mistakes and therefore, when in doubt, please consider confirming the responses by contacting me on [my LinkedIn](https://www.linkedin.com/in/aniketbhatnagar/).
