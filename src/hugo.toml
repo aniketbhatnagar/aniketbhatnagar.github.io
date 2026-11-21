@@ -71,7 +71,7 @@ animate = true
   intro = "Hi, my name is"
   title = "Aniket Bhatnagar."
   subtitle = "I build scalable backend systems"
-  content = "using my 16+years of [experience](#experience)."
+  content = "using my 18+ years of [experience](#experience)."
   image = "/images/profile-pic.jpg"
 
     [params.theme]
@@ -105,7 +105,7 @@ animate = true
   title = "About Me"
   image = "/images/xi-2015-small.png"
   content = """
-  I am a seasoned software engineer with 16+ years of mostly backend [experience](#experience), complemented by a broad range of [technical skills](/key-skills/).
+  I am a seasoned software engineer with 18+ years of mostly backend [experience](#experience), complemented by a broad range of [technical skills](/key-skills/).
 
   Got questions about my experience? Use [my GPT](https://chat.openai.com/g/g-WbxxaYmxQ-aniket-s-work-experience).
   :warning: ChatGPT can make mistakes and therefore, when in doubt, please consider confirming the responses by contacting me on [my LinkedIn](https://www.linkedin.com/in/aniketbhatnagar/).
@@ -131,18 +131,56 @@ animate = true
     enable = true
 
     [[params.experience.items]]
-    job = "Staff Software Developer"
+    job = "Senior Staff Engineer"
+    company = "Ripple"
+    companyUrl = "https://ripple.com/"
+    date = "Oct 2025 - present"
+    content = """
+I am the senior staff engineer for Ripple Custody, a product that enables banks and financial institutions to securely custody digital assets through SaaS and on-premise deployments.
+
+- Own the architecture end to end, provide oversight to multiple teams, and work with stakeholders across sales, product, partner engineering/customer support, and data science.
+- Lead the re-architecture of a stateful monolith into stateless, reusable components, introducing Temporal for durable workflow execution and addressing scalability and team velocity.
+- Introduced decision-making tools including RAPID, P/PS, and disagree and commit, along with a feature launch review process to reach consensus with stakeholders.
+
+Tech stack: gRPC, OpenAPI, Java, Spring Boot 3, Scala, Postgres, AWS, Temporal workflows, Helm, Kubernetes
+"""
+
+      [params.experience.items.info]
+      enable = false
+
+    [[params.experience.items]]
+    job = "Staff Software Engineer"
+    company = "Stripe"
+    companyUrl = "https://stripe.com/"
+    date = "Jul 2025 - Sep 2025"
+    content = """
+I worked as a staff engineer automating accounting and revenue recognition before relocating for personal reasons.
+
+- Defined the team's 2026 vision, including migrating internal Stripe invoices to the invoicing product, improving accounts receivable reliability and fault tolerance, taking ownership of Stripe-on-Stripe integrations, and extending Stripe products for internal business needs.
+- Improved the accounts receivable service to support 100X more invoice volume, from thousands to millions of invoices per month, by adopting newer Stripe APIs with bulk invoice item operations.
+- Introduced a launch review process covering implementation and observability to improve the quality of upcoming feature releases.
+
+Tech stack: gRPC, Java, MongoDB, AWS, Temporal workflows, React, Billing, Invoicing
+"""
+
+      [params.experience.items.info]
+      enable = false
+
+    [[params.experience.items]]
+    job = "Staff Software Engineer"
     company = "Coinbase"
     companyUrl = "https://www.coinbase.com/"
-    date = "April 2022 - present"
+    date = "Apr 2022 - Jun 2025"
     content = """
-I am currently working as a staff software developer at [Coinbase](https://www.coinbase.com/) in Dublin, Ireland. 
-As a staff engineer looking to expand Coinbase internationally, I:
-- Design features end to end, lead the team to launch features, work with staff engineers in other teams to reach consensus on the design.
-- Review design of consumer organization projects.
-- Mentor, help & performance calibrations for all team members in the entire consumer organization.
+As the only staff engineer in the EU and UK, I helped take Coinbase global by building features for EMEA customers and providing technical leadership across the consumer organization.
 
-Tech stack: gRPC, Go (Programming Language), Amazon Dynamodb, MongoDB, Amazon Web Services (AWS), Cadence & Temporal workflows, GraphQL, React, Payments
+- Designed features end to end, led teams through launch, and collaborated with staff engineers across teams to reach consensus on designs. Reviewed designs across 10+ concurrent consumer projects and mentored and supported performance calibrations for hundreds of engineers.
+- Led integration of local and global payment rails, including Open Banking in the UK and EU, PayPal, Interac, Sofort, iDEAL, Trustly, Blik, Apple Pay, Google Pay, and MB Way, supporting deposits, withdrawals, one-time and recurring buys, and subscriptions.
+- Managed cross-functional stakeholders across payments, risk, finance, and finhub, helped move integrations from a Ruby on Rails monolith to Go microservices, and provided oversight to a broader team of 15 engineers.
+- Volunteered for and delivered a code red ledger scaling project, introducing a batch asynchronous API to manage database locks more efficiently. Load testing reached 1.7K TPS, 10X typical ledger traffic.
+- Proposed interest on fiat holdings and led the multi-stakeholder implementation.
+
+Tech stack: gRPC, Go, MongoDB, Postgres, AWS, Cadence & Temporal workflows, Kafka, GraphQL, React, Payments
     """
 
       [params.experience.items.info]
@@ -154,13 +192,16 @@ Tech stack: gRPC, Go (Programming Language), Amazon Dynamodb, MongoDB, Amazon We
       url = "https://example.com"
 
     [[params.experience.items]]
-    job = "Staff Software Developer"
+    job = "Staff Software Engineer"
     company = "Patreon"
     companyUrl = "https://www.patreon.com/"
     date = "Jan 2020 - Mar 2022"
     content = """
 - Staff software engineer in platform team: I was the Tech Lead for the team responsible towards replatforming of Patreon stack. Propose standards, design API contracts, propose new components in existing stack, implement crucial pieces of platform, etc. 
 - Staff software engineer in the payments team: As a first hire of the Dublin engineering team, I was responsible for architecture, growing team, leading team, designing & implementing critical components for the payments team.
+
+- Designed a Java payment gateway service for local payment methods such as SEPA, Sofort, and iDEAL, introducing Snowflake ID generation, SNS/SQS messaging, and state machines.
+- Designed Patreon's first tax microservice, implemented core sales tax features, and led the team. Contributed to multi-currency design and code reviews.
 
 Tech stack: Python 3, Flask, SQLAlchemy, Java, Spring, AWS, MySQL, DynamoDB, GraphQL, Node, Typescript, NestJS, Payments
 """
@@ -171,10 +212,9 @@ Tech stack: Python 3, Flask, SQLAlchemy, Java, Spring, AWS, MySQL, DynamoDB, Gra
 
       [params.experience.items.info]
       enable = false
-      content = "I worked as a software developer for more than one year in Amazon."
 
     [[params.experience.items]]
-    job = "Principal Software Developer"
+    job = "Principal Software Engineer"
     company = "Circle"
     companyUrl = "https://www.circle.com/"
     date = "Jul 2017 - Jan 2020"
@@ -182,11 +222,12 @@ Tech stack: Python 3, Flask, SQLAlchemy, Java, Spring, AWS, MySQL, DynamoDB, Gra
 Principal software engineer in the platform team: As the first hire of the Dublin engineering team, I was responsible for architecture, growing team, leading team,  designing & implementing critical components for multiple products, mentor team members, identifying & proposing new platform components, groom stories for new products, etc.
 - Lead the effort for USDC APIs - A B2B product to help businesses use our fiat & crypto capabilities for payments and brokerage, focusing on technical design, breaking the system down into multiple components, etc. My leadership in USDC product development catalyzed a fiscal turnaround, transforming the company from a brink-of-bankruptcy status to a [robust $1 billion cash reserve](https://www.linkedin.com/posts/josh-hawkins-5253223_circle-says-1-billion-in-cash-serves-as-activity-7095436956335042560-2sW3/).
 - Lead team to successful launch of [USDC](https://www.circle.com/en-ie/usdc) - a stable coin with second highest [market cap](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48). Implemented multi-chain wallet, minting & burning of coin, handing reorgs/chain splits in ETH blockchain/ERC-20 tokens, etc
+- Architected and led the re-implementation of Poloniex multi-currency hot wallet infrastructure, improving stability and performance and introducing fiat capabilities. Provided guidance to the cold wallet infrastructure team.
 - Lead team to successful launch of [Circle Invest](https://support.invest.circle.com/hc/en-us/categories/360000015863-About-Circle-Invest). Implemented main trade feature, scaled platform to support multiple products, etc.
 - Architect and Implemented various features around banking/cards integration, accounting, etc in [Circle Pay](https://support.circle.com/hc/en-gb/articles/212059246--What-is-Circle-Pay-) & [Poloniex](https://poloniex.com/).
 - Thought leader in various platform initiatives like monitoring & tracing.
 
-Tech stack - Java 8, Dropwizard, Postgres SQL, BTC, ETH, ERC-20 tokens, Smart contracts, Solidity, Web3J, AWS SQS, AWS Lambda, Payments
+Tech stack - Java 8, Dropwizard, Postgres SQL, BTC, ETH, Cosmos, TRON, ERC-20 tokens, Smart contracts, Solidity, Web3J, AWS SQS, AWS Lambda, Payments
 """
 
       [params.experience.items.info]
@@ -203,9 +244,9 @@ Tech stack - Java 8, Dropwizard, Postgres SQL, BTC, ETH, ERC-20 tokens, Smart co
     companyUrl = "https://www.yahooinc.com/"
     date = "Jan 2016 - May 2017"
     content = """
-I worked as senior software engineer in adtech.
+I worked as a senior software engineer in adtech at Verizon Media / Oath / AOL Platforms / Yahoo.
 - Responsible for delivering highly performant and scalable components in small self-aligning teams.
-- With 6 months of joining, I single handedly delivered cache over user targeting store that caters to 800,000+ reads per second with 99% percentile latency as 6ms and 10,00,000+ writes per second. Identified and fixed critical issues in Netty and Aerospike client.
+- Within 6 months of joining, I single handedly delivered cache over user targeting store that caters to 800,000+ reads per second with 99th percentile latency of 6ms and 1,000,000+ writes per second. Identified and fixed critical issues in Netty and Aerospike client.
 - Debugged production issues by performing off-heap analysis, Receive Side Steering optimization, CPU flamegraph analysis.
 - Proposed solutions to several problems like identifying hot keys (top K problem) and reaching consensus between several components in a distributed system around what the most recent version of a record is.
 - Nominated for various awards. Won innovation award for system to gather data for CPU flamegraphs analysis.
@@ -221,12 +262,17 @@ Tech stack: Java 8, Netty, Spring 4, Spring boot, REST, Thrift, Avro, Aerospike,
       url = "https://example.com"
 
     [[params.experience.items]]
-    job = "Product Designer"
+    job = "Architect and Team Lead"
     company = "Publicis Sapient"
     companyUrl = "https://www.publicissapient.com/"
     date = "Jun 2007 - Nov 2015"
     content = """
-I was an architect and team lead who actively participated in solution architecture and design for various projects while working with some of the most well known brands like [Coca-Cola](https://www.coca-colacompany.com/), [NASCAR](https://www.nascar.com/), etc. I was resonsible for estimating, project planning, implementing critical components and day to day status tracking.
+I was an architect and team lead responsible for solution architecture, design, critical implementation, estimating, project planning, and day-to-day status tracking for projects including Coca-Cola and NASCAR.
+
+- Built an IoT data platform for collecting sensor data, real-time streaming, analysis, and modeling, implementing key components using Scala, Play! Framework, HBase, Redis, and Kafka.
+- Led integration and security for the NASCAR Digital Platform, implementing a scalable OpenID identity provider supporting 2 million hits per hour and 99.99% availability.
+- Designed and implemented critical application components, conducted code reviews, mentored junior developers, and contributed to build and release processes.
+- Consistently recognized as a top performer, with awards including Rookie of the Year, Supernova of the Quarter, Star of the Month, Core Value Awards, and SapientNitro's Game Changer.
 
 Tech stack: Scala 2.10.3, Play! Framework 2.2.0, HBase, Java/J2EE, Spring, Hibernate, Lucene, Oracle, Apache Camel, Adobe Day CQ (CMS), OpenID, Redis, ATG Commerce 2006.3, Kafka, Storm, Hadoop, ElasticSearch, StatsD
 """
